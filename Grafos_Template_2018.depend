@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1523982638 source:c:\users\alfeld\documents\estudo\grafos\grafos_template_2018_1\src\leitor.cpp
+	"Leitor.h"
+	<iostream>
+	<fstream>
+	<string>
+	"../Grafo.h"
+	<stdlib.h>
+
+1523978376 c:\users\alfeld\documents\estudo\grafos\grafos_template_2018_1\include\leitor.h
+
+1523978769 source:c:\users\alfeld\documents\estudo\grafos\grafos_template_2018_1\main.cpp
+	<iostream>
+	"Leitor.h"
+
+1523981541 c:\users\alfeld\documents\estudo\grafos\grafos_template_2018_1\grafo.h
+	"No.h"
+
+1522689272 c:\users\alfeld\documents\estudo\grafos\grafos_template_2018_1\no.h
+	"Aresta.h"
+
+1522632900 c:\users\alfeld\documents\estudo\grafos\grafos_template_2018_1\aresta.h
+
+1523981541 source:c:\users\alfeld\documents\estudo\grafos\grafos_template_2018_1\grafo.cpp
+	"Leitor.h"
+	<iostream>
+	<fstream>
+	<string>
+	"../Grafo.h"
+
+1524514623 source:c:\users\alfeld\documents\estudo\grafos\backup\grafo.cpp
+	"Leitor.h"
+	<iostream>
+	<fstream>
+	<string>
+	"../Grafo.h"
+	"No.h"
+	"Aresta.h"
+
+1524259578 c:\users\alfeld\documents\estudo\grafos\backup\include\leitor.h
+	"../Grafo.h"
+
+1524513518 c:\users\alfeld\documents\estudo\grafos\backup\grafo.h
+	"No.h"
+
+1524513933 c:\users\alfeld\documents\estudo\grafos\backup\no.h
+	"Aresta.h"
+
+1524514537 c:\users\alfeld\documents\estudo\grafos\backup\aresta.h
+
+1524498600 source:c:\users\alfeld\documents\estudo\grafos\backup\main.cpp
+	<iostream>
+	"Leitor.h"
+
+1524504572 source:c:\users\alfeld\documents\estudo\grafos\backup\src\leitor.cpp
+	"Leitor.h"
+	<iostream>
+	<fstream>
+	<string>
+	"../Grafo.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1524503790 source:c:\users\alfeld\documents\estudo\grafos\backup\no.cpp
+	"Leitor.h"
+	<iostream>
+	<fstream>
+	<string>
+	"../Grafo.h"
+
