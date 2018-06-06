@@ -22,6 +22,7 @@ class Grafo{
         int getGrau();
         int getNumArestas();
         void setListaNos(No*);
+        void excluiAresta();
 };
 
 #endif // GRAFO_H_INCLUDED

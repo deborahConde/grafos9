@@ -4,7 +4,7 @@
 class Aresta{
     private:
         float pesoAresta;
-        int iD_No;
+        int id_aresta;
         Aresta *proxAresta;
     public:
         Aresta(float peso) { pesoAresta = peso;};
@@ -14,7 +14,7 @@ class Aresta{
         Aresta* getProxAresta() {return proxAresta;};
         void setPesoAresta(float);
         void setProxAresta(Aresta* x) {proxAresta = x ; };
-        void setIdNo(int id_no) {iD_No = id_no;};
+        void setIdNo(int id_aresta) {id_aresta = id_aresta;};
 };
 
 

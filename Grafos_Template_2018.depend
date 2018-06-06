@@ -69,3 +69,37 @@
 	<string>
 	"../Grafo.h"
 
+1526672838 source:c:\users\pedro\desktop\trabalho grafos\grafos9\grafo.cpp
+	"Leitor.h"
+	<iostream>
+	<fstream>
+	<string>
+	"../Grafo.h"
+	"No.h"
+	"Aresta.h"
+
+1526672838 c:\users\pedro\desktop\trabalho grafos\grafos9\include\leitor.h
+	"../Grafo.h"
+
+1526672838 c:\users\pedro\desktop\trabalho grafos\grafos9\grafo.h
+	"No.h"
+
+1526672838 c:\users\pedro\desktop\trabalho grafos\grafos9\no.h
+	"Aresta.h"
+
+1526673013 c:\users\pedro\desktop\trabalho grafos\grafos9\aresta.h
+
+1526672838 source:c:\users\pedro\desktop\trabalho grafos\grafos9\main.cpp
+	<iostream>
+	"Leitor.h"
+
+1526672838 source:c:\users\pedro\desktop\trabalho grafos\grafos9\src\leitor.cpp
+	"Leitor.h"
+	<iostream>
+	<fstream>
+	<string>
+	"../Grafo.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
