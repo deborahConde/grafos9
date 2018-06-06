@@ -5,13 +5,6 @@
 #include "../Grafo.h"
 using namespace std;
 
-
-
-
-
-
-
-
 No::~No()
 {
     //dtor

@@ -5,14 +5,14 @@
 
 class No{
     private:
-        int iD;
+        int id_no;
         float pesoNo;
         No *proxNo;
         Aresta* listaAresta;
     public:
         No(int nome, float peso) {iD = nome; pesoNo = peso;};
         ~No();
-        int getID() {return iD;};
+        int getId_no() {return id_no;};
         float getPeso();
         No* getProxNo() {return proxNo;};
         Aresta* getListaAresta() {return listaAresta;};

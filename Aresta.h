@@ -10,11 +10,11 @@ class Aresta{
         Aresta(float peso) { pesoAresta = peso;};
         ~Aresta();
         float getPesoAresta();
-        int getIDNo();
+        int getId_no();
         Aresta* getProxAresta() {return proxAresta;};
         void setPesoAresta(float);
         void setProxAresta(Aresta* x) {proxAresta = x ; };
-        void setIdNo(int id_aresta) {id_aresta = id_aresta;};
+        void setId_no(int id_aresta) {id_aresta = id_aresta;};
 };
 
 
