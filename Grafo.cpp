@@ -45,8 +45,6 @@ void Grafo::insereNo(No *inserir)
         aux->setProxNo(inserir);
 
     }
-
-
 }
 
 void Grafo::insereAresta(int nosaida, int noentrada, float peso)
@@ -57,7 +55,7 @@ void Grafo::insereAresta(int nosaida, int noentrada, float peso)
     Aresta * aux2;
     Aresta * proxAresta;
 
-    while( no->getID() != nosaida)
+    while( no->getId_no() != nosaida)
     {
         no = no->getProxNo();
     }
@@ -71,17 +69,28 @@ void Grafo::insereAresta(int nosaida, int noentrada, float peso)
 
     }
     aux2->setProxAresta(aresta);
+}
+
+void Grafo::excluiNo(int id_no){
+    int id = id_no;
+    while (no->getId_no() != id){
+        no = no->getProxNo(); //acha o no a ser excluido
+    }
 
 }
+
 void Grafo::excluiAresta(int id_aresta)
 {
     while(no->getProxNo()){
 
     }
 
+}
+
+int Grafo::retornaGrauNo(int id_no){
 
 }
 
-
+bool verificaK()
 
 

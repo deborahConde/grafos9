@@ -10,7 +10,7 @@ class No{
         No *proxNo;
         Aresta* listaAresta;
     public:
-        No(int nome, float peso) {iD = nome; pesoNo = peso;};
+        No(int nome, float peso) {id_no = nome; pesoNo = peso;};
         ~No();
         int getId_no() {return id_no;};
         float getPeso();

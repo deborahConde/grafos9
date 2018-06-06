@@ -4,6 +4,7 @@
 
 void menu(){
 
+    No *n;
     int menu = 0;
 
     cout << "---===Menu===---";
@@ -29,17 +30,22 @@ void menu(){
 
     switch(menu){
     case 1: //Inclui Nó
-        insereNo()
+        insereNo();
         break;
     case 2: //Inclui Aresta
+        insereAresta();
         break;
     case 3: //Exclui Nó
+        excluiNo();
         break;
     case 4: //Exclui Aresta - Rodar todo o grafo pelos nós até achar na lista das arestas de cada nó, aresta a ser excluida.
+        excluiAresta();
         break;
     case 5: //Retorna o grau de um nó
+        retonaGrauNo();
         break;
     case 6: //K-regularidade
+        verificaK();
         break;
     case 7: //Informar Ordem Grafo
         break;
