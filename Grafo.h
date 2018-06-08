@@ -30,6 +30,10 @@ class Grafo{
         bool heTrivial();
         bool heNulo();
         void sequenciaDeGraus();
+        bool isBipartite();
+        bool hemultigrafo();
+        bool heCompleto();
+        bool heBipartido();
         string vizinhaFechada(int no);
 };
 

@@ -184,6 +184,38 @@ while(no != NULL ){
 
 }
 
+bool Grafo::heBipartido(){
+
+
+}
+
+bool Grafo::heCompleto(){
+
+
+}
+
+bool Grafo::hemultigrafo(){
+No * raiz = Noraiz;
+
+while(no != NULL ){
+            aresta = no->getListaAresta();
+
+             int i = 0 ;
+        while(aresta != NULL){
+            i++;
+            int id_no = aresta->getId_no();
+
+            // ponto de verificação(fazer)
+
+            aresta = aresta->getProxAresta();
+
+
+        }
+
+           no =  no->getProxNo();
+    }
+}
+
 
 string Grafo::vizinhaFechada(int no){
     No * no = Noraiz;
@@ -200,6 +232,4 @@ string Grafo::vizinhaFechada(int no){
         vizinhaca = vizinha + "}";
 return string;
 }
-
-
 

@@ -110,15 +110,15 @@
 1528244795 c:\users\alfeld\documents\estudo\grafos\git\include\leitor.h
 	"../Grafo.h"
 
-1528483445 c:\users\alfeld\documents\estudo\grafos\git\grafo.h
+1528497095 c:\users\alfeld\documents\estudo\grafos\git\grafo.h
 	<string>
 	"No.h"
 	<iostream>
 
-1528331843 c:\users\alfeld\documents\estudo\grafos\git\no.h
+1528496698 c:\users\alfeld\documents\estudo\grafos\git\no.h
 	"Aresta.h"
 
-1528331843 c:\users\alfeld\documents\estudo\grafos\git\aresta.h
+1528497046 c:\users\alfeld\documents\estudo\grafos\git\aresta.h
 
 1528331843 source:c:\users\alfeld\documents\estudo\grafos\git\src\leitor.cpp
 	"Leitor.h"
