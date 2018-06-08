@@ -103,3 +103,39 @@
 	<stdio.h>
 	<string.h>
 
+1528331843 source:c:\users\alfeld\documents\estudo\grafos\git\main.cpp
+	<iostream>
+	"Leitor.h"
+
+1528244795 c:\users\alfeld\documents\estudo\grafos\git\include\leitor.h
+	"../Grafo.h"
+
+1528483445 c:\users\alfeld\documents\estudo\grafos\git\grafo.h
+	<string>
+	"No.h"
+	<iostream>
+
+1528331843 c:\users\alfeld\documents\estudo\grafos\git\no.h
+	"Aresta.h"
+
+1528331843 c:\users\alfeld\documents\estudo\grafos\git\aresta.h
+
+1528331843 source:c:\users\alfeld\documents\estudo\grafos\git\src\leitor.cpp
+	"Leitor.h"
+	<iostream>
+	<fstream>
+	<string>
+	"../Grafo.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1528482283 source:c:\users\alfeld\documents\estudo\grafos\git\grafo.cpp
+	"Leitor.h"
+	<iostream>
+	<fstream>
+	<string>
+	"../Grafo.h"
+	"No.h"
+	"Aresta.h"
+
